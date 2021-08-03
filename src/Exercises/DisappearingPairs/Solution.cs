@@ -18,13 +18,11 @@ namespace Callicode.Codility.Exercises.DisappearingPairs
             char[] temp = new char[bufferLength];
             int tempLength;
 
+            char firstCharacter, secondCharacter;
+
+            S.CopyTo(0, buffer, 0, S.Length);
+
             int previousLength = 0;
-
-            for (var i = 0; i < S.Length; i++)
-            {
-                buffer[i] = S[i];
-            }
-
             while (previousLength != bufferLength)
             {
                 previousLength = bufferLength;
@@ -34,12 +32,15 @@ namespace Callicode.Codility.Exercises.DisappearingPairs
                 // copying even characters
                 for (int i = 0; i < bufferLength - 1; i += 2)
                 {
-                    if ((buffer[i] != 'A' || buffer[i + 1] != 'A') &&
-                        (buffer[i] != 'B' || buffer[i + 1] != 'B') &&
-                        (buffer[i] != 'C' || buffer[i + 1] != 'C'))
+                    firstCharacter = buffer[i];
+                    secondCharacter = buffer[i + 1];
+
+                    if ((firstCharacter != 'A' || secondCharacter != 'A') &&
+                        (firstCharacter != 'B' || secondCharacter != 'B') &&
+                        (firstCharacter != 'C' || secondCharacter != 'C'))
                     {
-                        temp[tempLength++] = buffer[i];
-                        temp[tempLength++] = buffer[i + 1];
+                        temp[tempLength++] = firstCharacter;
+                        temp[tempLength++] = secondCharacter;
                     }
                 }
 
@@ -66,12 +67,15 @@ namespace Callicode.Codility.Exercises.DisappearingPairs
                 // copying odd characters
                 for (int i = 1; i < bufferLength - 1; i += 2)
                 {
-                    if ((buffer[i] != 'A' || buffer[i + 1] != 'A') &&
-                        (buffer[i] != 'B' || buffer[i + 1] != 'B') &&
-                        (buffer[i] != 'C' || buffer[i + 1] != 'C'))
+                    firstCharacter = buffer[i];
+                    secondCharacter = buffer[i + 1];
+
+                    if ((firstCharacter != 'A' || secondCharacter != 'A') &&
+                        (firstCharacter != 'B' || secondCharacter != 'B') &&
+                        (firstCharacter != 'C' || secondCharacter != 'C'))
                     {
-                        temp[tempLength++] = buffer[i];
-                        temp[tempLength++] = buffer[i + 1];
+                        temp[tempLength++] = firstCharacter;
+                        temp[tempLength++] = secondCharacter;
                     }
                 }
 
