@@ -13,80 +13,81 @@ class Solution
     public String solution(String S)
     {
         char[] buffer = new char[S.Length];
-        char[] temp = new char[S.Length];
-        var previousLength = 0;
-        var newLength = 0;
+        int bufferLength = S.Length;
+
+        char[] temp;
+        int tempLength;
+
+        int previousLength = 0;
 
         for (var i = 0; i < S.Length; i++)
         {
             buffer[i] = S[i];
         }
 
-        while (previousLength != buffer.Length)
+        while (previousLength != bufferLength)
         {
-            previousLength = buffer.Length;
-            newLength = 0;
+            previousLength = bufferLength;
 
-            temp = new char[buffer.Length];
+            temp = new char[bufferLength];
+            tempLength = 0;
 
             // copying even characters
-            for (int i = 0; i < buffer.Length - 1; i += 2)
+            for (int i = 0; i < bufferLength - 1; i += 2)
             {
                 if ((buffer[i] != 'A' || buffer[i + 1] != 'A') &&
                     (buffer[i] != 'B' || buffer[i + 1] != 'B') &&
                     (buffer[i] != 'C' || buffer[i + 1] != 'C'))
                 {
-                    temp[newLength++] = buffer[i];
-                    temp[newLength++] = buffer[i + 1];
+                    temp[tempLength++] = buffer[i];
+                    temp[tempLength++] = buffer[i + 1];
                 }
             }
 
             // copying last character
-            if (buffer.Length % 2 != 0)
+            if (bufferLength % 2 != 0)
             {
-                temp[newLength++] = buffer[buffer.Length - 1];
+                temp[tempLength++] = buffer[bufferLength - 1];
             }
 
-            buffer = new char[newLength];
-            Array.Copy(temp, buffer, newLength);
+            // avoid creating copy of temp buffer
+            buffer = temp;
+            bufferLength = tempLength;
 
-            temp = new char[buffer.Length];
+            temp = new char[bufferLength];
+            tempLength = 0;
 
-            // resetting new length counter
-            newLength = 0;
-
-            if (buffer.Length < 2)
+            if (bufferLength < 2)
             {
                 continue;
             }
 
             // copying first character
-            temp[0] = buffer[0];
+            temp[tempLength++] = buffer[0];
 
-            newLength++;
-
-            // copying odd characters
-            for (int i = 1; i < buffer.Length - 1; i += 2)
+             // copying odd characters
+            for (int i = 1; i < bufferLength - 1; i += 2)
             {
                 if ((buffer[i] != 'A' || buffer[i + 1] != 'A') &&
                     (buffer[i] != 'B' || buffer[i + 1] != 'B') &&
                     (buffer[i] != 'C' || buffer[i + 1] != 'C'))
                 {
-                    temp[newLength++] = buffer[i];
-                    temp[newLength++] = buffer[i + 1];
+                    temp[tempLength++] = buffer[i];
+                    temp[tempLength++] = buffer[i + 1];
                 }
             }
 
             // copying last character
-            if (buffer.Length % 2 == 0)
+            if (bufferLength % 2 == 0)
             {
-                temp[newLength++] = buffer[buffer.Length - 1];
+                temp[tempLength++] = buffer[bufferLength - 1];
             }
 
-            buffer = new char[newLength];
-            Array.Copy(temp, buffer, newLength);
+            // avoid creating copy of temp buffer
+            buffer = temp;
+            bufferLength = tempLength;
         }
 
-        return new string(buffer);
+        return new string(buffer, 0, bufferLength);
     }
 }
