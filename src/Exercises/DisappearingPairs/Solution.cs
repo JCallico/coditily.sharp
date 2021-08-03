@@ -15,7 +15,7 @@ namespace Callicode.Codility.Exercises.DisappearingPairs
             char[] buffer = new char[S.Length];
             int bufferLength = S.Length;
 
-            char[] temp;
+            char[] temp = new char[bufferLength];
             int tempLength;
 
             int previousLength = 0;
@@ -29,7 +29,6 @@ namespace Callicode.Codility.Exercises.DisappearingPairs
             {
                 previousLength = bufferLength;
 
-                temp = new char[bufferLength];
                 tempLength = 0;
 
                 // copying even characters
@@ -54,7 +53,6 @@ namespace Callicode.Codility.Exercises.DisappearingPairs
                 buffer = temp;
                 bufferLength = tempLength;
 
-                temp = new char[bufferLength];
                 tempLength = 0;
 
                 if (bufferLength < 2)
