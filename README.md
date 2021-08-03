@@ -1,6 +1,8 @@
 # My Codility
 Keeping track of my solutions to Codility's problems.
 
+[![.NET Build & Test](https://github.com/JCallico/coditily/actions/workflows/dotnet_build_and_test.yml/badge.svg)](https://github.com/JCallico/coditily/actions/workflows/dotnet_build_and_test.yml)
+
 ## [ThreeLetters](https://app.codility.com/programmers/trainings/5/three_letters/)
 Given two integers A and B, return a string which contains A letters "a" and B letters "b" with no three consecutive letters being the same.
 
