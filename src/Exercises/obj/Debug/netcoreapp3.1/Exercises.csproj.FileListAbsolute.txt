@@ -1,9 +1,0 @@
-C:\Users\jcall\source\repos\coditily\src\Exercises\obj\Debug\netcoreapp3.1\Exercises.AssemblyInfoInputs.cache
-C:\Users\jcall\source\repos\coditily\src\Exercises\obj\Debug\netcoreapp3.1\Exercises.AssemblyInfo.cs
-C:\Users\jcall\source\repos\coditily\src\Exercises\obj\Debug\netcoreapp3.1\Exercises.csproj.CoreCompileInputs.cache
-C:\Users\jcall\source\repos\coditily\src\Exercises\bin\Debug\netcoreapp3.1\Callicode.Codility.Exercises.deps.json
-C:\Users\jcall\source\repos\coditily\src\Exercises\bin\Debug\netcoreapp3.1\Callicode.Codility.Exercises.dll
-C:\Users\jcall\source\repos\coditily\src\Exercises\bin\Debug\netcoreapp3.1\Callicode.Codility.Exercises.pdb
-C:\Users\jcall\source\repos\coditily\src\Exercises\obj\Debug\netcoreapp3.1\Callicode.Codility.Exercises.dll
-C:\Users\jcall\source\repos\coditily\src\Exercises\obj\Debug\netcoreapp3.1\Callicode.Codility.Exercises.pdb
-C:\Users\jcall\source\repos\coditily\src\Exercises\obj\Debug\netcoreapp3.1\Exercises.csproj.AssemblyReference.cache
