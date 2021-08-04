@@ -1,7 +1,6 @@
 /*
 DisappearingPairs
 Reduce a string containing instances of the letters "A", "B" and "C" via the following rule: remove one occurrence of "AA", "BB" or "CC".
-https://app.codility.com/programmers/trainings/5/disappearing_pairs/
 */
 
 using System;

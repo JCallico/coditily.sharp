@@ -1,7 +1,6 @@
 /*
 TreeHeight
 Compute the height of a binary tree.
-https://app.codility.com/programmers/trainings/4/tree_height/
 
 Comments:
 - Implements the most basic solution that could be potencially implemented in any programming language.

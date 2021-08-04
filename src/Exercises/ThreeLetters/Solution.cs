@@ -1,7 +1,6 @@
 /*
 ThreeLetters
 Given two integers A and B, return a string which contains A letters "a" and B letters "b" with no three consecutive letters being the same.
-https://app.codility.com/programmers/trainings/5/three_letters/
 */
 
 using System;
