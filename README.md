@@ -19,7 +19,16 @@ Reduce a string containing instances of the letters "A", "B" and "C" via the fol
 
 [Alternate solution (Score 83%)](src/Exercises//DisappearingPairs/Solution.cs)
 
+## [StrSymmetryPoint](https://app.codility.com/programmers/trainings/4/str_symmetry_point/)
+Find a symmetry point of a string, if any.
+
+[Solution (Score 100%)](src/Exercises/StrSymmetryPoint/Solution.cs)
+
 ## [TreeHeight](https://app.codility.com/programmers/trainings/4/tree_height/)
 Compute the height of a binary tree.
 
 [Solution (Score 100%)](src/Exercises/TreeHeight/Solution.cs)
+
+## Disclaimer:
+* Answers are my own and are published here as a way to keep track of them.
+* Tests are copyrighted by Codility Limited.
