@@ -19,3 +19,7 @@ Reduce a string containing instances of the letters "A", "B" and "C" via the fol
 
 [Alternate solution (Score 83%)](src/Exercises//DisappearingPairs/Solution.cs)
 
+## [TreeHeight](https://app.codility.com/programmers/trainings/4/tree_height/)
+Compute the height of a binary tree.
+
+[Solution (Score 100%)](src/Exercises/TreeHeight/Solution.cs)
