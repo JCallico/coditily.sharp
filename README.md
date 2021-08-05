@@ -1,5 +1,5 @@
-# My Codility
-Keeping track of my solutions to Codility's problems.
+# Codility.Sharp
+Keeping track of my solutions to Codility's problems. All implemented in C#.
 
 [![.NET Build & Test](https://github.com/JCallico/coditily/actions/workflows/dotnet_build_and_test.yml/badge.svg)](https://github.com/JCallico/coditily/actions/workflows/dotnet_build_and_test.yml)
 [![CodeQL](https://github.com/JCallico/coditily/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/JCallico/coditily/actions/workflows/codeql-analysis.yml)
