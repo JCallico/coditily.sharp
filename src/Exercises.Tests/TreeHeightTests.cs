@@ -7,7 +7,7 @@ namespace Callicode.Codility.Exercises.Tests
     public class TreeHeightTests
     {
         [TestMethod]
-        public void TreeHeightTests_Zero_Node()
+        public void TreeHeight_Zero_Node()
         {
             var tree = (Tree)null;
 
@@ -17,7 +17,7 @@ namespace Callicode.Codility.Exercises.Tests
         }
 
         [TestMethod]
-        public void TreeHeightTests_One_Node()
+        public void TreeHeight_One_Node()
         {
             var tree = new Tree
             {
@@ -30,7 +30,7 @@ namespace Callicode.Codility.Exercises.Tests
         }
 
         [TestMethod]
-        public void TreeHeightTests_Basic_1()
+        public void TreeHeight_Basic_1()
         {
             var tree = new Tree
             {
@@ -63,7 +63,7 @@ namespace Callicode.Codility.Exercises.Tests
         }
 
         [TestMethod]
-        public void TreeHeightTests_Basic_2()
+        public void TreeHeight_Basic_2()
         {
             var tree = new Tree
             {
