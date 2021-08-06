@@ -32,7 +32,7 @@ Compute the height of a binary tree.
 ## ArrayInversionCount
 Compute number of inversion in an array.
 
-[Solution (Score 63%)](src/Exercises/ArrayInversionCount/Solution.cs)
+[Solution (Score 100%)](src/Exercises/ArrayInversionCount/Solution.cs)
 
 ## Disclaimer:
 * Answers are my own and are published here as a way to keep track of them.

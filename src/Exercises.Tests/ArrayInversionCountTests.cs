@@ -6,6 +6,26 @@ namespace Callicode.Codility.Exercises.Tests
     public class ArrayInversionCountTests
     {
         [TestMethod]
+        public void ArrayInversionCount_None()
+        {
+            var x = new int[] {};
+
+            var exercise = new ArrayInversionCount.Solution();
+
+            Assert.AreEqual(0, exercise.solution(x));
+        }
+
+        [TestMethod]
+        public void ArrayInversionCount_One()
+        {
+            var x = new int[] { 6 };
+
+            var exercise = new ArrayInversionCount.Solution();
+
+            Assert.AreEqual(0, exercise.solution(x));
+        }
+
+        [TestMethod]
         public void ArrayInversionCount_Basic_1()
         {
             var x = new int[] { -1, 6, 3, 4, 7, 4 };
