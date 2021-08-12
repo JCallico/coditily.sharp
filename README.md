@@ -39,6 +39,11 @@ Given two strings representing times of entry and exit from a car parking lot, f
 
 [Solution (Score 100%)](src/Exercises/ParkingBill/Solution.cs)
 
+## ParityDegree
+Find the highest power of 2 that divides N.
+
+[Solution (Score 100%)](src/Exercises/ParityDegree/Solution.cs)
+
 ## Disclaimer:
 * Answers are my own and are published here as a way to keep track of them.
 * Tests are copyrighted by Codility Limited.
