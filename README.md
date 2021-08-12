@@ -34,6 +34,11 @@ Compute number of inversion in an array.
 
 [Solution (Score 100%)](src/Exercises/ArrayInversionCount/Solution.cs)
 
+## ParkingBill
+Given two strings representing times of entry and exit from a car parking lot, find the cost of the ticket according to the given billing rules.
+
+[Solution (Score 100%)](src/Exercises/ParkingBill/Solution.cs)
+
 ## Disclaimer:
 * Answers are my own and are published here as a way to keep track of them.
 * Tests are copyrighted by Codility Limited.
