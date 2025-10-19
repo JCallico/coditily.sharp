@@ -47,7 +47,7 @@ Find the highest power of 2 that divides N.
 ## TennisTournament
 Given the number of players P and the number of reserved courts C, returns the maximum number of games that can be played in parallel.
 
-[Solution](src/Exercises/TennisTournament/Solution.cs)
+[Solution (Score 100%)](src/Exercises/TennisTournament/Solution.cs)
 
 ## Disclaimer:
 * Answers are my own and are published here as a way to keep track of them.
