@@ -49,6 +49,11 @@ Given the number of players P and the number of reserved courts C, returns the m
 
 [Solution (Score 100%)](src/Exercises/TennisTournament/Solution.cs)
 
+## SocksLaundering
+Bob wants to take as many pairs of clean socks as possible on his trip. Given clean and dirty socks, determine the maximum number of pairs he can obtain by optimally choosing which dirty socks to wash with limited washing machine capacity.
+
+[Solution (Score 100%)](src/Exercises/SocksLaundering/Solution.cs)
+
 ## Disclaimer:
 * Answers are my own and are published here as a way to keep track of them.
 * Tests are copyrighted by Codility Limited.
